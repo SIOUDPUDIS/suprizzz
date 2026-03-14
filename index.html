@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Özel ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="giris-ekrani">
+        <h1>Sana bir sürprizim var... ✨</h1>
+        <button class="buton" onclick="baslat()">Keşfet</button>
+    </div>
+    <div id="ana-icerik">
+        <div class="mesaj-kutusu">
+            <h1>Mavinin En Güzel Tonuyla ✨</h1>
+            <p>Mavinin her tonunda huzur bulduğunu söyledin... Ben de bu küçük dünyayı tamamen senin sevdiğin renklerle boyadım. Umarım bu şarkı ve mavinin sakinliği sana iyi gelir, en kısa sürede çok daha iyi olursun. Senin için buradayım. ✨</p>
+        </div>
+        <div class="music-player">
+            <div class="album-art"></div>
+            <div class="song-info">
+                <p class="song-title">Nerdesin</p>
+                <p class="artist-name">Ezhel</p>
+            </div>
+            <div class="controls" onclick="togglePlay()">
+                <svg id="play-icon" class="play-pause-icon" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </div>
+        </div>
+    </div>
+    <div id="video-container">
+        <iframe id="youtube-audio" width="100" height="100" src="https://www.youtube.com/embed/Mh7ZJ00Gf9o?enablejsapi=1" frameborder="0" allow="autoplay"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
